@@ -1,0 +1,4 @@
+It has only redis database installed in it.
+On terminal: sudo apt install redis-server
+Edit the Redis configuration file (/etc/redis/redis.conf) to allow connections:  bind 0.0.0.0
+Restart Redis: sudo systemctl restart redis
